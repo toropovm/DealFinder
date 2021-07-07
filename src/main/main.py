@@ -1,6 +1,9 @@
-def main():
+from selenium import webdriver
 
-    print("Hello World")
+
+def main():
+    driver = webdriver.Chrome("C:\\Users\\Haysus\\Desktop\\Python Project\\chromedriver.exe")
+    driver.get("google.com")
 
 if __name__ == '__main__':
     main()
